@@ -1,8 +1,6 @@
 module Main where
 
-
--- "+yhttps://arxiv.org/pdf/chao-dyn/9506003.pdf"
-
+-- https://arxiv.org/pdf/chao-dyn/9506003.pdf
 
 -- import Text.Parsec
 import Text.ParserCombinators.Parsec
@@ -34,8 +32,7 @@ Syntax:
   ' is quote: ('(abc)) == (abc)
   & is lambda: (& (x y z) (f x y z)) == f
   : is let, see Chaitin95
-
-
+  
 Predefined:
   1,0 are true and false
   +,- are head and tail
